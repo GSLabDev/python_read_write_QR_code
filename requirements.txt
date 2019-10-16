@@ -1,0 +1,8 @@
+Django~=2.2.4
+django-crispy-forms
+python-slugify
+pyqrcode
+pyzbar
+pyzbar[scripts]
+pypng
+image

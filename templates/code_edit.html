@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <div class="container-fluid">
+    <h2>Create/Update Code</h2>
+    <form method="POST" class="form-group">{% csrf_token %}
+      {% crispy form %}
+    </form>
+  </div>
+{% endblock %}
